@@ -13,7 +13,7 @@ const Info = () => {
     return (
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 p-10'>
             <InfoCart text = {text.open} bgColor="text-white b-700 font-bold bg-gradient-to-r from-secondary to-primary" CartTitle="Opening Hours" img={clock}></InfoCart>
-            <InfoCart text ={text.location} bgColor="bg-accent" CartTitle="Visit Our Location" img={marker}></InfoCart>
+            <InfoCart text ={text.location} bgColor="bg-neutral" CartTitle="Visit Our Location" img={marker}></InfoCart>
             <InfoCart text = {text.contact} bgColor="text-white b-700 font-bold bg-gradient-to-r from-secondary to-primary" CartTitle="Contact Us Now" img={phone}></InfoCart>
         </div>
     );
