@@ -7,8 +7,8 @@ const Reviews = ({ c }) => {
 
                 <p>{c.des}</p>
                 <div className="card-actions">
-                    <div class="avatar">
-                        <div class="w-25 rounded-full ring ring-primary ">
+                    <div className="avatar">
+                        <div className="w-25 rounded-full ring ring-primary ">
                             <img className='p-1' src={c.img} />
                         </div>
                         <div className='p-3'>
